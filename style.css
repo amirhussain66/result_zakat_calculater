@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: beige;
+}
+.container {
+    padding: 20px 40px;;
+    width: auto;
+    height: auto;
+    background-color: blue;
+    text-align: center;
+    border-radius: 25px;
+}
+.container input{
+    padding-left: 7px;
+    display: block;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+.container label{
+    color: beige;
+    font-weight: 700;
+    display: flex;
+    justify-content: left;   
+}
+button{
+    width: 100%;
+    padding: 7px 10px;
+    font-weight: 900;
+    font-size: larger;
+    border-radius: 8px;
+    
+}
+p{
+    color: beige;
+    max-width: 270px;
+
+    font-weight: 700;
+}
+.res{
+    max-width: 200px;
+}
+
+
+
+

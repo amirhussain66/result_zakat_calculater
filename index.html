@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1> Result Calculator</h1>
+            <label for="TotalMarks">Enter Student Name</label>
+            <input type="string" id="Name" placeholder="Enter Student Name ">
+            <label for="TotalMarks">Enter your Total Marks</label>
+            <input type="number" id="TotalMarks" placeholder="Enter Total Marks">
+            <label for="ObtainMarks">Enter your Obtain Marks</label>
+            <input type="number" id="ObtainMarks" placeholder="Enter Obtained Marks">
+
+            <button onclick="getRes()">Check Result</button>
+            
+                <p id="result">Display result here</p>
+                <p id="Grade"></p>
+            
+            
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="container">
+            <h1>Zakat Calculater</h1>
+            <label for="gold">Gold weight in grams (1tola=12 gram)</label>
+            <input type="number" id="TotalGold" placeholder="weight of Gold">
+            <label for="Silver">Silver weight in grams (1tola=12 gram)</label>
+            <input type="number" id="TotalSilver" placeholder="Weight of silver">
+            <label for="Money">Money in Rupees</label>
+            <input type="number" id="Rupees" placeholder="Enter Money in Rupees">
+
+            <button type="button" onclick="zakat()">Check Result</button>
+            <p id="resullt">Display result here</p>
+           
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
